@@ -1,0 +1,22 @@
+---
+layout: default0
+title: Shadow Removal
+categories: publications
+subtitle: Journal of Photogrammetry and Remote Sensing
+permalink: shadow-rem
+---
+
+<!-- Breadcrumb -->
+{% include breadcrumb_pub.html %}
+
+<h1>Near real-time shadow detection and removal in aerial motion imagery application</h1>
+<p class="post-meta">Guilherme F. Silva; Grace B. Carneiro; Ricardo Doth; Leonardo A. Amaral; Dario F. G. de Azevedo</p>
+<h2>Abstract</h2>
+<p align="justify">This work presents a method to automatically detect and remove shadows in urban aerial images and its application in an aerospace remote monitoring system requiring near real-time processing. Our detection method generates shadow masks and is accelerated by GPU programming. To obtain the shadow masks, we converted images from RGB to CIELCh model, calculated a modified Specthem ratio, and applied multilevel thresholding. Morphological operations were used to reduce shadow mask noise. The shadow masks are used in the process of removing shadows from the original images using the illumination ratio of the shadow/non-shadow regions. We obtained shadow detection accuracy of around 93% and shadow removal results comparable to the state-of-the-art while maintaining execution time under real-time constraints.</p>
+
+<figure class="figure">
+  <img src="{{site_baseurl}}/pubs/shadow-rem.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+  <figcaption class="figure-caption">Shadow removal comparison. Left to right: Original, proposed method, Gong and Cosker (2016) and Guo et al. (2013).</figcaption>
+</figure>
+
+<p>Acesse o artigo aqui: <a class="btn btn-light link" target="_blank" href="https://doi.org/10.1016/j.isprsjprs.2017.11.005">DOI Identifier.</a></p>

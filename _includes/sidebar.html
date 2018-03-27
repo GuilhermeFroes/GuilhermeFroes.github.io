@@ -1,0 +1,53 @@
+<aside id="sidebar">
+  {% if site.show_downloads %}
+    <a href="{{ site.github.zip_url }}" class="button">
+      <small>Download</small>
+      .zip file
+    </a>
+    <a href="{{ site.github.tar_url }}" class="button">
+      <small>Download</small>
+      .tar.gz file
+    </a>
+  {% endif %}
+  <!--
+  <h2>Disciplinas</h2>
+  <p>
+    Disciplinas ministradas em 2017/2:
+    <ul>
+      <li><a href="{{site.baseurl}}{% link modules/automacao.html %}">Automação</a></li>
+      <li><a href="{{site.baseurl}}{% link modules/fluidomecanica.html %}">Fluidomecânica</a></li>
+      <li><a href="{{site.baseurl}}{% link modules/laboratorioSim.html %}">Laboratório de Simuilação de Sistemas</a></li>
+      <li><a href="{{site.baseurl}}{% link modules/progRobos.html %}">Programação de Robôs</a></li>
+      <li><a href="{{site.baseurl}}{% link modules/redes.html %}">Redes e Protocolos Industriais</a></li>
+      <li><a href="{{site.baseurl}}{% link modules/sistemasFab.html %}">Sistemas Integrados de Fabricação</a></li>
+    </ul>
+  </p>
+  -->
+  <h2>Documentos Gerais</h2>
+  <p>
+    Acesse meus <a href="{{site.url}}/downloads/GradeDeHorarios_GUILHERME_FROES_SILVA.pdf">horários</a>. <br>
+    Acesse o <a href="{{site.url}}/downloads/calendario-graduacao-e-pos-graduacao-2017.pdf">Calendário 2017 PUCRS</a>. <br>
+    Acesse meu <a href="https://www.dropbox.com/s/olj5j5pcenrfg2z/Silva_resume.pdf?dl=0">CV (no Dropbox)</a>. <br>
+    Acesse meu <a href="http://lattes.cnpq.br/2048165567965101">Lattes</a>. <br>
+  </p>
+  <h2>Contato</h2>
+  <p>
+  <a href="mailto:codefroes@gmail.com">
+    <img src="{{site.baseurl}}/assets/images/Mail-black.svg" alt="Mail" style="width:24px; height:24px;">
+  </a>
+  <!--
+  <a href="https://www.facebook.com/codefroes">
+    <img src="{{site.baseurl}}/assets/images/Facebook-black.svg" alt="Facebook" style="width:24px; height:24px;">
+  </a>
+-->
+  <a href="https://www.linkedin.com/in/codefroes/">
+    <img src="{{site.baseurl}}/assets/images/LinkedIn-black.svg" alt="Linkedin" style="width:24px; height:24px;">
+  </a>
+  </p>
+
+  {% if site.github.is_project_page %}
+    <p class="repo-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</p>
+  {% endif %}
+  <p>Esta página foi gerada por <a href="https://pages.github.com">GitHub Pages</a>.</p>
+
+</aside>
